@@ -44,4 +44,8 @@ def decompress():
         if hash(chunk) in dictionary:
             decomp.write(struct.pack('B', dictionary[hash(chunk)]))
             chunk = ""
-decompress()
+try:
+    decompress()
+    print("File decompression successful!")
+except:
+    print("Error Occured! Check input file parameter....")
