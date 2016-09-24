@@ -1,6 +1,6 @@
 #Huffman Compression Algorithm
 > An CLI program that uses Huffman Tree to compress data
-> *Original Date: 20 Sept 2014*
+> *Original Date: 20 Sept 2011*
 
 ###**example**
 ```
