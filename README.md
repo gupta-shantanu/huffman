@@ -1,8 +1,8 @@
-#Huffman Compression Algorithm
+# Huffman Compression Algorithm
 > An CLI program that uses Huffman Tree to compress data
 > *Original Date: 20 Sept 2011*
 
-###**example**
+### **example**
 ```
 >python compress.py test.mp3 comressed.huff
 Job completed!
@@ -11,6 +11,6 @@ Job completed!
 File decompress successful!
 ```
 
-####NOTES
+#### NOTES
 * added custom file naming extensions
 * just noticed last 3 bytes are corrupted,check soon :bomb:
